@@ -1,8 +1,8 @@
 // Welcome! This will be a practice sheet for working with TypeScript
 
 // Part 1: Types and Variables
-// Example: Make a reassignable variable, named bruh, that equals a string "bruh"
-let bruh: string = "bruh"
+// Example: Make a reassignable variable, named bruh_str, that equals a string "bruh"
+let bruh_str: string = "bruh"
 // TODO 1: Make a reassignable variable, named five, that equals a number 5
 
 // TODO 2: Make a nonreassignable variable, named isTrue, that equals a boolean true
@@ -10,18 +10,18 @@ let bruh: string = "bruh"
 
 // Part 2: Functions
 // Example: Write an empty function (no parameter, no output)
-const someFunction = () => {}
-function someOtherFunction() {}
+const rad_function = () => { }
+function another_rad_function() { }
 
 // TODO 3: Write your own empty function
 
 // TODO 4: Finish this function, that takes an array of numbers and returns the sum of all the numbers
-const sumOfArray = (numbers: number[]) => {
- 
+const sum_of_array = (numbers: number[]) => {
+
 };
 
 // TODO 5: Finish this function, that takes an array of numbers and returns the sum of all the numbers
-const convertToCelsius = (fahrenheit: number) => {
+const convert_to_celsius = (fahrenheit: number) => {
 
 };
 
@@ -39,7 +39,7 @@ interface Car {
 }
 
 // Object using the interface
-let myCar: Car = {
+let my_car: Car = {
   brand: "Toyota",
   model: "Camry",
   year: 2022
